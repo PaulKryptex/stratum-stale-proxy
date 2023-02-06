@@ -21,4 +21,6 @@ start /b proxy.exe -local 127.0.0.1:8888 -upstream ethw-eu1.nanopool.org:15555 -
 t-rex.exe -a ethash -o stratum+tcp://127.0.0.1:8888 -u 0xaaa57E14fF549C5e448478aAC0851Ac9182A9a6F.delay60 --log-path ethw.nanopool.delay60.txt
 pause
 ```
+
+If you see this then your pool is hiding shares
 ![If you see this then your pool is hiding shares](https://i.imgur.com/aQeVQ8e.png)
