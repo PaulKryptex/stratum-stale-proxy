@@ -23,4 +23,5 @@ pause
 ```
 
 If you see this then your pool is hiding shares
+
 ![If you see this then your pool is hiding shares](https://i.imgur.com/aQeVQ8e.png)
