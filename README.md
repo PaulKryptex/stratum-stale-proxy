@@ -17,8 +17,8 @@ With this tool you can check if your pool is hiding Stale shares.
 **mine-with-stales.bat**:
 ```
 @cd /d "%~dp0"
-start /b proxy.exe -local 127.0.0.1:8888 -upstream etc-eu1.nanopool.org:15555 -delay 60000
-t-rex.exe -a etchash -o stratum+tcp://127.0.0.1:8888 -u 0xaaa57E14fF549C5e448478aAC0851Ac9182A9a6F.delay60 --log-path ethw.nanopool.delay60.txt
+start /b proxy.exe -local 127.0.0.1:8888 -upstream ethw-eu1.nanopool.org:15555 -delay 60000
+t-rex.exe -a ethash -o stratum+tcp://127.0.0.1:8888 -u 0xaaa57E14fF549C5e448478aAC0851Ac9182A9a6F.delay60 --log-path ethw.nanopool.delay60.txt
 pause
 ```
 
